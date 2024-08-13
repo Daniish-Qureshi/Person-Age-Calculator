@@ -28,6 +28,43 @@
     color: #ffff76;
 }
 
+
+@media (min-width: 768px) {
+    .calculator h1{
+        font-size: 48px;
+    }
+
+    .input-box {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .input-box input {
+        margin-right: 20px;
+        margin-bottom: 0;
+    }
+
+    .input-box button {
+        width: auto;
+    }
+}
+
+@media (min-width: 1024px) {
+    .calculator h1{
+        font-size: 60px;
+    }
+
+    .calculator {
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .input-box {
+        padding: 35px 50px;
+    }
+}
+
 .input-box{
     margin: 40px 0;
     padding: 35px;
